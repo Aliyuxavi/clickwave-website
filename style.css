@@ -79,3 +79,68 @@ footer {
   margin-top: 2rem;
   font-size: 0.9rem;
 }
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #004aad;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .logo {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Sections */
+section {
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 1.5rem;
+}
+
+/* Contact section */
+#contact ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#contact ul li {
+  margin-bottom: 0.5rem;
+}
+
+#contact a {
+  color: #004aad;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+  }
