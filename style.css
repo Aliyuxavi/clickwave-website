@@ -14,3 +14,84 @@ header {
   max-width: 200px;
   margin-bottom: 20px;
 }
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #004aad; /* deep blue */
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* About Us Section */
+#about {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#about h2 {
+  text-align: center;
+  color: #004aad;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+#about p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+#about ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+#about ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+/* Add a simple bullet icon */
+#about ul li::before {
+  content: "✔";
+  color: #004aad;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #004aad;
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
